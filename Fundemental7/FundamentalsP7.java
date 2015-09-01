@@ -4,18 +4,17 @@ public class FundamentalsP7
 {
     public static void main(String[] args)
     {
-        int[] numbers = new int[10];
-        for (int index = Math.random(); index < numbers.length;index++)
+     int[] numbers = new int[10];
+     for (int index = 0; index < numbers.length;index++)
         {
-            numbers[index] = (int)((Math.random()*10)*-1);
+        numbers[index] = (int)((Math.random()*201)-100);
         }
-        int index= 0;
-        while(numbers[index] < 100)
+    
+     int index= 0;
+     while(index < 10)
         {
-            System.out.println(numbers[index]); 
-            index++;
+         System.out.println(numbers[index]); 
+         index++;
         }
-        
     }
-
 }
