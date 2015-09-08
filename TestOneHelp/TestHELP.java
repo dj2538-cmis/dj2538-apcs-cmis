@@ -17,11 +17,11 @@ public class TestHELP
           System.out.println(" "+index+" : " + arrayA[index]); 
          }
          
-      for (int index = (arrayA.length - 1); index <= 0;index--)
+      for (int index = (arrayA.length - 1); index >= 0;index--)
          {
           
           int intVal = (int) arrayA[index]; 
-            if(arrayA[index]%2==0)
+            if(intVal%2==0)
             {
                String e = ("E");
                int i = 1;
@@ -44,7 +44,7 @@ public class TestHELP
                 }
                 System.out.println(" "+index+" : " + o + arrayA[index]);
             }
-            
+           
          }
      } // end method main 
     
