@@ -12,62 +12,76 @@ public class WeatherChaos
       int[] days = new int[userInt];
       String cold = "";
       
-       System.out.println("Days \t" + "temperature \t" + "Temperature swing from previous day \t" + "Description");
-    for (int index = 0; index < days.length; index++)
+      System.out.println("Days \t" + "temperature \t" + "Temperature swing from previous day \t" + "Description");
+       for (int index = 0; index < days.length; index++)
        {
-       days[index] = (int) (Math.random() * 200) - 100;
-       }
-     
-      for (int index = 0; index < days.length; index++)
-      {
+           if (userInt > 0 && userInt < 31)
+          {
+            days[index] = (int) (Math.random() * 200) - 100;
+            System.out.println(index +1);
+            System.out.println( "\t" + days[index]);
+           }
         
-        if (userInt > 0 && userInt < 31)
-        {
-           System.out.println(index +1);
-           System.out.println( "\t" + days[index]);
+           else 
+           {
+            System.out.println("INVALID!!!");    
+           }
            
-        }
-        
-        else 
-        {
-         System.out.println("INVALID!!!");    
-        }
-        
-     }
-     
-     for (int index = 0; index < days.length; index++)
-     {
-      if (userInt <= 0)
-      {
-       cold = "freezing";    
-      }
-      System.out.println("\t" + cold); 
-     }
-      int occur = 0;
-      for (int index = 0; index < days.length; index++)
-      {
-       if (days[index] > occur)
-       {
-        occur = days[index];
+          if (days[index] <= 0)
+          {
+           cold = "freezing";    
+           System.out.println("\t" + "\t" + "\t"+ "\t" + "\t"  + "\t"  + "\t"  + "\t"+cold);
+           }
+           
+          if(0 < days[index] && days[index] <= 15)
+          {
+           System.out.println("\t" + "\t" + "\t"+ "\t" + "\t"  + "\t"  + "\t"  + "\t"+"chilly");
+           }
+           
+          if(16 < days[index] && days[index] <= 30)
+          {
+           System.out.println("\t" + "\t" + "\t"+ "\t" + "\t"  + "\t"  + "\t"  + "\t"+"comfortable");
+          }
+          
+          if(31 < days[index] && days[index] <= 40)
+          {
+           System.out.println("\t" + "\t" + "\t"+ "\t" + "\t"  + "\t"  + "\t"  + "\t"+"hot");
+          }
+          
+          if(days[index] >= 41)
+          {
+           System.out.println("\t" + "\t" + "\t"+ "\t" + "\t"  + "\t"  + "\t"  + "\t"+"AAAAAUUUGGGHHH!");
+          }
+       
        }
-      }
-      int nOccur = occur;
-      for (int index = 0; index < days.length; index++)
-      {
-        if (days[index] < nOccur)
+       
+       
+       int occur = 0;
+       for (int index = 0; index < days.length; index++)
+       {
+        if (days[index] > occur)
         {
-        nOccur = days[index];
+         occur = days[index];
         }
-      }
-     System.out.println("MAX : " + occur);
-     System.out.println("MIN : " + nOccur);
-     int sum = 0;
-     for (int index = 0; index < days.length; index++)
-      {
-       sum += days[index];
-      }
-      float avg = (float) sum / (float) (days.length);
-      System.out.println("AVG : " + avg);
+       }
+       int nOccur = occur;
+       for (int index = 0; index < days.length; index++)
+       {
+         if (days[index] < nOccur)
+         {
+         nOccur = days[index];
+         }
+       }
+       System.out.println("MAX : " + occur);
+       System.out.println("MIN : " + nOccur);
+       int sum = 0;
+       for (int index = 0; index < days.length; index++)
+       {
+        sum += days[index];
+       }
+       float avg = (float) sum / (float) (days.length);
+       System.out.println("AVG : " + avg);
+      
       
      
       }
