@@ -23,7 +23,10 @@ public class Classsong
         public String toString()
           {
            String output = new String();
-           output = "Genre is:
+           output = "Genre is: " + Genre + "\n" +
+                    "Artist is: " + Artist + "\n" +
+                    "Song is: " + Song + "\n"; 
+           return output; 
           }
     }
     
