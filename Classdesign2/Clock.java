@@ -2,32 +2,28 @@ package Classdesign2;
 
 public class Clock
     {
-        private int hour = 0;
-        private double cost = 0;
-        private String brand = new String("");
-        private boolean isOn = false;
+        private int hour;
+        private int min;
+        private int sec;
         
         public Clock()
           {
-          int hour = 0; 
-          double cost = 0.0; 
-          String brand = new String(); 
-          boolean isOn = false; 
-
+          hour = 15; 
+          min = 45;
+          sec = 23;
           } // end constructor Classsong
           
-        public Clock( int hour, double cost, String brand, boolean isOn)
+        public Clock( int hour, int min, int sec)
           {
            this.hour = hour;
-           this.cost = cost;
-           this.brand = new String( brand );
-           this.isOn = isOn; 
+           this.min = min;
+           this. sec = sec;
           } // another constructor 
           
         public String toString()
           {
            String output = new String();
-           output = "The time is + hour + cost + brand + isOn"; 
+           output = "The time is " +  hour + " : " + min + " : " +  sec; 
            return output; 
           }
     }
