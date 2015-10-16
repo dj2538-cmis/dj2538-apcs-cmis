@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PlanetApp()
+comment1.params=maxPopulation\ percentSpaceMarines\ maxSpaceMarinesPerStarDestoryer\ nPlanets\ radius\ SpaceMarines\ StarDestoryers\ name\ rank
+comment1.target=PlanetApp(int,\ double,\ double,\ int,\ int,\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
