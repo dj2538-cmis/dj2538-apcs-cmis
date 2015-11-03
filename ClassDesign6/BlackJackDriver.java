@@ -15,7 +15,7 @@ public class BlackJackDriver
       {
        int a = ((int) (Math.random()*13));
        int b = ((int) (Math.random()*4));
-       myHand[i] = new BlackJack(cards[a],cardsid[b]);
+       myHand[i] = new BlackJack(cards[a] + cardsid[b]);
        System.out.println(myHand[i]);
      } 
       
