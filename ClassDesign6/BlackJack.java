@@ -8,7 +8,7 @@ public class BlackJack
         
         public BlackJack()
           {
-           number = "7 of";
+           number = "7";
            suit = "Spades";
           } // end constructor Classsong
           

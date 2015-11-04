@@ -6,25 +6,27 @@ public class BlackJackDriver2
   {
    public static void main( String[] args )
      {
-      String[] cards = {"2 of ","3 of ","4 of ", "5 of", "6 of ", "7 of ", "8 of ", "9 of "
-                        , "10 of ", "J of ", "Q of ", "K of ", "A of "};
+      BlackJack card1[] = new BlackJack[2]; 
+      BlackJack card2[] = new BlackJack[2]; 
+      BlackJack card3[] = new BlackJack[2]; 
+      BlackJack card4[] = new BlackJack[2]; 
+      BlackJack card5[] = new BlackJack[2]; 
+      BlackJack dealercard[] = new BlackJack[2]; 
+      number Number[] = new BlackJack[13];
+      
+      number[] cards = {"2","3","4", "5", "6", "7", "8", "9"
+                        , "10", "J", "Q", "K", "A"};
                         
-      String[] cardsid = {" Spades", " Diamonds", " Hearts", " Clubs"};
-
-      String[] player1 = new String[3];
-      String[] player2 = new String[3];
-      String[] player3 = new String[3];
-      String[] player4 = new String[3];
-      String[] player5 = new String[3];
-      String[] dealer = new String[3];
+      int value[] = {1,2,3,4,5,6,7,8,9,10,11};
+                        
+      String[] cardsid = {" Spades", " Diamonds", " Hearts", " Clubs"}; 
       
-      
-      for( int i = 1; i < dealer.length; i++)
+      for( int i = 0; i < dealercard.length; i++)
       {
        int a = ((int) (Math.random()*13));
        int b = ((int) (Math.random()*4));
-       dealer[i] = cards[a] + cardsid[b];
-       System.out.println("Dealer : " + dealer[i]);
+       dealercard[i] = cards[a] + cardsid[b];
+       System.out.println("Dealer : " + dealercard[i]);
       }
       
       System.out.println("\n");
@@ -79,7 +81,7 @@ public class BlackJackDriver2
       
       System.out.println("\n"); 
       
-      System.out.println(two);
+      
       
        
       
