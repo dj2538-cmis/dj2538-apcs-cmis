@@ -22,10 +22,9 @@ public class BlackJackDriver2
       int dealerscore = 0;
       String winner = "";
       String loser = "";
+      String blackjack = "";
                         
       String[] cardsid = {" Spades", " Diamonds", " Hearts", " Clubs"}; 
-      
-      
       
       for( int i = 0; i < dealercard.length; i++)
       {
@@ -38,8 +37,8 @@ public class BlackJackDriver2
       }//dealer
       
       System.out.println("Value : " + dealerscore);
-       
       System.out.println("\n");
+      
       score = 0;
       for( int i = 0; i < dealercard.length; i++)
       {
@@ -53,16 +52,25 @@ public class BlackJackDriver2
       
       
       System.out.println("Value : " + score);
-      if(score == 21)
+      
+       if(score == 21)
+      {
+       blackjack = "BLACKJACK WINNERRRR!!!";  
+       System.out.println(blackjack);
+      }
+      if(dealerscore >= score)
         {
-         winner = "winner";    
+         loser = "Dealer wins";  
+         System.out.println(loser);
         }
-      if(score < 21)
+      else 
         {
-         loser = "loser";    
+          winner = "winner";
+          System.out.println(winner);
         }
-      System.out.println(winner);
-      System.out.println(loser);
+      
+      
+      
       
       System.out.println("\n");
       score = 0;
@@ -77,8 +85,25 @@ public class BlackJackDriver2
       }//player2
       
       System.out.println("Value : " + score);
-      System.out.println(winner);
-      System.out.println(loser);
+      
+       if(score == 21)
+      {
+       blackjack = "BLACKJACK WINNERRRR!!!";   
+       System.out.println(blackjack);
+      }
+      if(dealerscore >= score)
+        {
+         loser = "Dealer wins";    
+         System.out.println(loser);
+        }
+      else 
+        {
+          winner = "winner";
+          System.out.println(winner);
+        }
+      
+      
+      
       
       System.out.println("\n");
       score = 0; 
@@ -93,8 +118,25 @@ public class BlackJackDriver2
       }// player3
       
       System.out.println("Value : " + score);
-      System.out.println(winner);
-      System.out.println(loser);
+      
+       if(score == 21)
+      {
+       blackjack = "BLACKJACK WINNERRRR!!!";  
+       System.out.println(blackjack);
+      }
+      if(dealerscore >= score)
+        {
+         loser = "Dealer wins";    
+         System.out.println(loser);
+        }
+      else 
+        {
+          winner = "winner";
+          System.out.println(winner);
+        }
+      
+      
+      
       
       System.out.println("\n");
       score = 0;
@@ -109,8 +151,26 @@ public class BlackJackDriver2
       }//player4
       
       System.out.println("Value : " + score);
-      System.out.println(winner);
-      System.out.println(loser);
+
+       if(score == 21)
+      {
+       blackjack = "BLACKJACK WINNERRRR!!!";   
+       System.out.println(blackjack);
+      }
+      if(dealerscore >= score)
+        {
+         loser = "Dealer wins";    
+         System.out.println(loser);
+        }
+      else 
+        {
+          winner = "winner";
+          System.out.println(winner);
+        }
+      
+      
+      
+      
       
       System.out.println("\n");
       score = 0;
@@ -125,8 +185,25 @@ public class BlackJackDriver2
       }//player5 
       
       System.out.println("Value : " + score);
-      System.out.println(winner);
-      System.out.println(loser);
+      
+       if(score == 21)
+      {
+       blackjack = "BLACKJACK WINNERRRR!!!";    
+       System.out.println(blackjack);
+      }
+      if(dealerscore >= score)
+        {
+         loser = "Dealer wins";  
+         System.out.println(loser);
+        }
+      else 
+        {
+          winner = "winner";
+          System.out.println(winner);
+        }
+      
+      
+      
       
       
       
@@ -134,4 +211,5 @@ public class BlackJackDriver2
      }
      
      
-}    
+}  
+
