@@ -6,8 +6,6 @@ public class ClassMethod1
         private String Artist;
         private String Song;
         private int yearReleased;
-        private int SongLengthmins;
-        private int SongLengthsec;
         private int SongLength; 
         
         public ClassMethod1()
@@ -16,13 +14,17 @@ public class ClassMethod1
            Artist = new String ("Coldplay");
            Song = new String ("Paradise");
            SongLength = 131; 
-           SongLengthmins = 4;
-           SongLengthsec = 12;
           } // end constructor Classsong
           
         public int calSongLength()
           {
            int total = SongLength % 60;
+           return total;
+          }
+          
+        public int calSongLength2()
+          {
+           int total = SongLength / 60;
            return total;
           }
           
@@ -36,14 +38,12 @@ public class ClassMethod1
            this.yearReleased = released; 
           }// get yearRelased
           
-        public ClassMethod1(String Genre, String Artist, String Song,
-                            int SongLengthmins, int SongLengthsec)
+        public ClassMethod1(String Genre, String Artist, String Song, int SongLength)
           {
            this.Genre = new String( Genre );
            this.Artist = new String( Artist);
            this.Song = new String( Song );
-           this.SongLengthmins =  SongLengthmins;
-           this.SongLengthsec =   SongLengthsec; 
+           this.SongLength = SongLength;
           } // another constructor 
           
         public String toString()
@@ -53,10 +53,9 @@ public class ClassMethod1
                     "Artist is: " + Artist + "\n" +
                     "Song is: " + Song + "\n" + 
                     "The length of the song is: " + 
-                     SongLengthmins + " minutes " + " and " 
-                     + SongLengthsec + " seconds." + "\n" + "\n" + calSongLength();
+                     calSongLength2() + " minutes " + " and " 
+                     + calSongLength() + " seconds." + "\n \n";
                      
            return output; 
           }
     }
-    

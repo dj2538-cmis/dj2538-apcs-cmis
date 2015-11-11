@@ -9,24 +9,22 @@ public class SimpleCardDriver
                         , "10 of ", "J of ", "Q of ", "K of ", "A of "};
       String[] suit = {" Spades", " Diamonds", " Hearts", " Clubs"};
       
+     
+     for( int i = 0; i < myHand.length; i++)
+     {
+      myHand[i] = new SimpleCard(suit[i%4], rank[i%13]);
+      System.out.println(myHand[i]);
+     } // %
+     
+     System.out.println("\n"); 
+     
+     for( int i = 0; i == 5; i++)
+     {
+     System.out.println(Math.random() * SimpleCard); 
+     } // %
+     
       
      
-     
-      for( int i = 0; i < myHand.length; i++)
-     {
-      for( int d = 0; d < rank.length; d++)
-      {
-       rank = new picked[d]; 
-      }
-     } 
-     
-      for( int i = 0; i < 5; i++)
-      {
-       int a = ((int) (Math.random()*13));
-       int b = ((int) (Math.random()*4));
-       myHand[i] = new SimpleCard(rank[b],suit[a]);
-       System.out.println(myHand[i]);
-     } 
      
       
      }
