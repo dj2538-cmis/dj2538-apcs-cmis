@@ -23,7 +23,7 @@ public class ClockDriver
       
       System.out.println("\n\n");
       System.out.println("Total seconds");
-      System.out.println( clock1.totalSeconds() );
+  
      
       
       

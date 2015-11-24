@@ -40,6 +40,7 @@ public class Clock
          this.hour = hour * 3600;
          this.min = min * 60;
          this.sec = sec;
+         return totalSeconds;
         }
         
         public Clock( int hour, int min, int sec)
