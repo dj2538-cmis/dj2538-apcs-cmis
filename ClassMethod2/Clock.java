@@ -6,9 +6,13 @@ public class Clock
         private int hour;
         private int min;
         private int sec;
+        private int hour1;
+        private int min1;
+        private int sec1;
         private int add; 
         private int minus;
         private int total;
+        
         
         public Clock()
           {
@@ -34,13 +38,16 @@ public class Clock
         {
           this.hour = hour - 1;
         }
+       
         
-        public void totalSeconds(int hour, int min, int sec)
+        public int calTotalSecs()
         {
-         this.hour = hour * 3600;
-         this.min = min * 60;
-         this.sec = sec;
-         return totalSeconds;
+           this.hour = hour * 3600;
+           this.min = min * 60;
+           this.sec = sec; 
+           int total = 0;
+           total = hour + min + sec; 
+           return total;
         }
         
         public Clock( int hour, int min, int sec)
@@ -53,7 +60,7 @@ public class Clock
         public String toString()
           {
            String output = new String();
-           output = "The time is " +  hour + " : " + min + " : " +  sec; 
+           output = "The time is " +  hour + " : " + min + " : " +  sec + " Total Seconds : " +  calTotalSecs(); 
            return output; 
           }
     }
