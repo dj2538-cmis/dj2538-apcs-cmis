@@ -1,4 +1,4 @@
-package ClassMethod4;
++package ClassMethod4;
 
 public class Students
     {
