@@ -12,19 +12,22 @@ public class ClockStore
         clocksInStock[2] = new Clock( 10, 30, 10 );
        } // end zero-arg constructor
        
-    public int mostseconds()
+    public Clock mostseconds()
        {
-        int max = 0;
+        int maxSeconds = 0;
+        int maxClock = 0;
         
         for( int i = 0; i < clocksInStock.length; i++)
            {
-            if( clocksInStock[i].totalSeconds() > max )
-               {
-                max = i + 1;
+            if( clocksInStock[i].totalSeconds() > maxSeconds )
+               {                   
+                maxClock = i;
+                maxSeconds = clocksInStock[i].totalSeconds();
                }
            }
-        return max; 
-       }
+           
+        return clocksInStock[maxClock]; 
+       } // end mostseconds()
      
     public String toString()
        {

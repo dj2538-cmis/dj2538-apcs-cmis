@@ -2,7 +2,7 @@
 comment0.params=
 comment0.target=ClockStore()
 comment1.params=
-comment1.target=int\ mostseconds()
+comment1.target=Clock\ mostseconds()
 comment2.params=
 comment2.target=java.lang.String\ toString()
 numComments=3
