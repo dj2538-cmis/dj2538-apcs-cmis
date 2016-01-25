@@ -4,8 +4,9 @@ public class apComputerScienceDriver
    {
     public static void main (String[] args) 
        {
-        apComputerScience Student = new apComputerScience();
-        System.out.println( Student );
+        System.out.println( "Beginning Class \n " );
+        Beginning.addStudent(  ); 
+        
        }
        
    }

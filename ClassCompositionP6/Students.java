@@ -3,7 +3,7 @@ package ClassCompositionP6;
 public class Students
    {
     private String firstname;
-    private String lastname;
+    String lastname;
     private double gpa;
             
     public Students()

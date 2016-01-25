@@ -7,31 +7,31 @@ public class apComputerScience
    
     public apComputerScience()
        {
-       this.myStudents = new ArrayList<Students>();
-       this.myStudents.add( new Students ( "DJ", "Ketsing", 2.39 ) );
-       this.myStudents.add( new Students ( "Drake", "Jones", 3.18 ) );
-       this.myStudents.add( new Students ( "Blingbling", "Singh", 3.56 ) );
+       Students a = new Students( "DJ", "Ketsing", 2.39 );
+       Students b = new Students( "Drake", "Jones", 3.18 );
+       Students c = new Students( "Blingbling", "Singh", 3.56 );
+       
+       myStudents.add( a ); 
+       myStudents.add( b ); 
+       myStudents.add( c ); 
+       
        } // end zer-arg constructor
     
-    public void addStudent ( Students newStudent )
-      {
-       this.myStudents = new ArrayList<Students>();
-       this.myStudents.add( new Students ( "DJ", "Ketsing", 2.39 ) );
-       this.myStudents.add( new Students ( "Drake", "Jones", 3.18 ) );
-       this.myStudents.add( new Students ( "Blingbling", "Singh", 3.56 ) );
-           
-      }    
-      
-    public void dropStudent ( String lastName )
+    public void addStudent(Students New)
+       {        
+        myStudents.add(New);
+       }
+    
+    public void dropStudent(String lastName)
        {
-        for( int i = 0; i < myStudents.size(); i++ )
+        for (int i = 0 ; i < myStudents.size() ; i++)
            {
-            if( myStudents.get( i ).equals( "Ketsing" ) )
+            if (myStudents.get(i).lastname == lastName)
                {
-                myStudents.remove( i );     
+                myStudents.remove(myStudents.get(i));
+                break;
                }
            }
-           
        }
       
     public String findStudentWithMaxGPA() 
