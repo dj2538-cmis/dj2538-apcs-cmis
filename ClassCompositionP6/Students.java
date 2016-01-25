@@ -1,4 +1,4 @@
-package ClassCompositionP3;
+package ClassCompositionP6;
 
 public class Students
    {

@@ -7,32 +7,32 @@ public class Roster
     public Roster()
        {
         this.Roster = new Students[3];
-        Roster[0] = new Students( "DJ", "Ketsing", 17, 59.3, 2016, "" , 1, 2, 3, 4, 1 );
-        Roster[1] = new Students( "Drake", "Jones", 30, 90.6, 2020, "", 4, 4, 3, 4, 2 );
-        Roster[2] = new Students( "Blingbling", "Singh", 12, 40.5, 2010, "", 4, 4, 4, 3.5, 4 );
+        Roster[0] = new Students( "DJ", "Ketsing", 2.5 );
+        Roster[1] = new Students( "Drake", "Jones", 3.7 );
+        Roster[2] = new Students( "Blingbling", "Singh", 3.72 );
        } // end zer-arg constructor
     
-    public double findStudentWithMaxGPA() 
+    public String findStudentWithMaxGPA() 
        {
-        int maxGPAI = 0;
-        int maxGPA = 0;
+        int max = 0;
         
-        for( int i = 0; i < Students.length; i++)
+        for( int i = 0; i < Roster.length; i++ )
            {
-            if( Students[i].totalSeconds() > maxSeconds )
-               {                   
-                maxClock = i;
-                maxSeconds = clocksInStock[i].totalSeconds();
-               }
+            if( Roster[i].getGPA() > Roster[ max ].getGPA() )
+            {
+             max = i;   
+            }
            }
            
-        return clocksInStock[maxClock];    
+        return Roster[ max ].getName();
            
        }
        
     public String toString()
        {
         String output = new String();
+        
+        output = "Student with the highest GPA: " + findStudentWithMaxGPA() + "\n\n";
         
         for( Students s : Roster )
            {
@@ -43,5 +43,6 @@ public class Roster
        } // end method toString 
        
    } // end class
+
 
 
