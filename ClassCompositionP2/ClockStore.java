@@ -7,7 +7,7 @@ public class ClockStore
     public ClockStore()
        {
         this.clocksInStock = new Clock[3];    
-        clocksInStock[0] = new Clock( 12, 30, 45 );
+        clocksInStock[0] = new Clock( 3, 0, 0 );
         clocksInStock[1] = new Clock( 6, 30, 20 );
         clocksInStock[2] = new Clock( 10, 30, 10 );
        } // end zero-arg constructor

@@ -3,17 +3,17 @@ import java.util.ArrayList;
 
 public class apComputerScience
    {
-    private ArrayList<Students> myStudents;
+    private ArrayList<Students> myStudents = new ArrayList<Students>();
    
     public apComputerScience()
        {
-       Students a = new Students( "DJ", "Ketsing", 2.39 );
-       Students b = new Students( "Drake", "Jones", 3.18 );
-       Students c = new Students( "Blingbling", "Singh", 3.56 );
+       Students a = new Students( "DJ ", "Ketsing", 2.39 );
+       Students b = new Students( "Drake ", "Jones", 3.18 );
+       Students c = new Students( "Blingbling ", "Singh", 3.56 );
        
-       myStudents.add( a ); 
-       myStudents.add( b ); 
-       myStudents.add( c ); 
+       myStudents.add( a );
+       myStudents.add( b );
+       myStudents.add( c );
        
        } // end zer-arg constructor
     
@@ -26,10 +26,10 @@ public class apComputerScience
        {
         for (int i = 0 ; i < myStudents.size() ; i++)
            {
-            if (myStudents.get(i).lastname == lastName)
+            if (myStudents.get(i).lastname.equals( lastName ) )
                {
-                myStudents.remove(myStudents.get(i));
-                break;
+                myStudents.remove(i);
+                i--;
                }
            }
        }
