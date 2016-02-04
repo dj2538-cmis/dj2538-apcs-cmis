@@ -1,26 +1,26 @@
 package ClassCompositionP1;
-import java.util.ArrayList;
 
 public class MyPod 
    {
     private String color;
     private int MemoryCapacity; //GB
-    private ArrayList<String> songLibrary;
-    private ArrayList<String> songs;
+    private String[] songLibrary; 
     
     public MyPod()
        {
-        this.color = new String( "Black");
+        this.color = new String( "Black" );
         this.MemoryCapacity = 32; 
-        this.songLibrary = new ArrayList<String>(); 
+        this.songLibrary = new String[3]; 
        } // end zero-arg constructor
        
     public MyPod( String color, int MemoryCapacity)
        {
-        this.songLibrary = new ArrayList<songs>();
-        this.songLibrary.add( "Roses" );
-        this.songLibrary.add( "Roll With Me " );
-        this.songLibrary.add( "Middle" );        
+        this.color = new String( color );
+        this.MemoryCapacity = MemoryCapacity;
+        this.songLibrary = new String[3];
+        songLibrary[0] = new String( "Roses" );
+        songLibrary[1] = new String( "Roll With Me" );
+        songLibrary[2] = new String( "Middle" );
        } // end multi constructor
        
     public String toString()
@@ -32,7 +32,7 @@ public class MyPod
        
         for( String s : songLibrary)
            {
-            System.out.println( s );              
+            output += s + "\n";  
            }
                  
         return output;  

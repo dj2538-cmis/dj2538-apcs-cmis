@@ -1,10 +1,10 @@
-package ClassCompositionP1;
+package ClassCompositionP5;
 
-public class MyPodDriver
+public class MyPod2Driver
    {
     public static void main( String[] args )
        {
-        MyPod carPod = new MyPod( "Blue", 64 );
+        MyPod2 carPod = new MyPod2( "Blue", 64 );
         System.out.println( carPod );
            
        }
