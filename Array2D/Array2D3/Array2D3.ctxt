@@ -1,8 +1,4 @@
 #BlueJ class context
-<<<<<<< HEAD
 comment0.params=arg
-=======
-comment0.params=args
->>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 comment0.target=void\ main(java.lang.String[])
 numComments=1

@@ -6,77 +6,44 @@ public class Array2D2
     public static void main( String[] args )
        {
         int[][] grid = new int[3][5];
-        int[] numbers = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+        int[] colsums = new int[5];
+        int[] rowsums = new int[3];
         int i = 0;
-        int sum = 0;
-        int sumRow1 = 0;
-        int sumRow2 = 0;
-        int sumRow3 = 0;
-        int sumCol1 = 0;
-        int sumCol2 = 0;
-        int sumCol3 = 0;
-        int sumCol4 = 0;
-        int sumCol5 = 0;
+        int total = 0; 
 
 
         for( int row = 0; row < grid.length; row++ )
            {
             for( int col = 0; col < grid[0].length; col++ )
                {
-
-                grid[row][col] = numbers[i];
-                i++; 
+                grid[row][col] = i + col + 1 ;
+                colsums[col] += grid[row][col];
+                rowsums[row] += grid[row][col];
                } // end inner for 
-               
+            i = i + grid[0].length;
            } // end outer for 
            
-        for( int row = 0; row < grid.length; row++ )
-           {
-            for( int col = 0; col < grid[0].length; col++ )
-               {
-
-                System.out.print( grid[row][col] + "\t" );   
-
-                System.out.print( grid[row][col] + " " );   
-
-               } // end inner for 
-            System.out.println( "\n" );
-           } // end outer for 
-           
-       for( int row = 0; row < grid.length; row++ )
-           {
-            for( int col = 0; col < grid[0].length; col++ )
-               {
-                sum += grid[row][col];  
-               } // end inner for 
-               
-           } // end outer for
-           
-        for( int row = 0; row < grid.length; row++ )
-           {
-            sumCol1 += grid[row][0];
-            sumCol2 += grid[row][1];
-            sumCol3 += grid[row][2];
-            sumCol4 += grid[row][3];
-            sumCol5 += grid[row][4];
-           } // end outer for 
-           
-        for( int col = 0; col < grid[0].length; col++ )
-           {
-            sumRow1 += grid[0][col];
-            sumRow2 += grid[1][col];
-            sumRow3 += grid[2][col];
-           } // end inner for  
-           
-        System.out.println( "The sum of the 2D array is " + sum );
-        System.out.println( "The sum of Column 1 is: " + sumCol1 );
-        System.out.println( "The sum of Column 2 is: " + sumCol2 );
-        System.out.println( "The sum of Column 3 is: " + sumCol3 );
-        System.out.println( "The sum of Column 4 is: " + sumCol4 );
-        System.out.println( "The sum of Column 5 is: " + sumCol5 );
-        System.out.println( "The sum of Row 1 is: " + sumRow1 );
-        System.out.println( "The sum of Row 2 is: " + sumRow2 );
-        System.out.println( "The sum of Row 3 is: " + sumRow3 );
+        for (int[] n : grid )
+        {
+            for(int num : n)
+             {
+                 total += num;
+                 System.out.print( num  + "\t");
+              } // end inner for 
+            System.out.println( "\n"  );
+        } // end outer fod 
+        
+        System.out.println("Total : " + total); 
+        
+        for (int x = 0; x < grid.length; x++)
+        {
+            System.out.println("Sum of row " + (x+1) + " is : " + rowsums[x]);
+        } // end for 
+        
+        for(int x = 0; x < grid[0].length; x++)
+             {
+            System.out.println("Sum of column " + (x+1)  + " is : " + colsums[x]);
+         } // end for 
            
        } // end void main
        
