@@ -2,17 +2,30 @@
 objectbench.height=76
 objectbench.width=686
 package.editor.height=400
+<<<<<<< HEAD
 package.editor.width=584
 package.editor.x=32
 package.editor.y=46
+=======
+package.editor.width=560
+package.editor.x=20
+package.editor.y=20
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
 package.showUses=true
+<<<<<<< HEAD
 target1.editor.height=778
 target1.editor.width=1276
 target1.editor.x=4
 target1.editor.y=22
+=======
+target1.editor.height=875
+target1.editor.width=1600
+target1.editor.x=0
+target1.editor.y=0
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 target1.height=50
 target1.name=Fundemental1
 target1.naviview.expanded=true

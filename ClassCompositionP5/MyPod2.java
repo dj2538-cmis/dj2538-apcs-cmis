@@ -43,4 +43,9 @@ public class MyPod2
         return output;  
        } // end method toString 
     
+<<<<<<< HEAD
    } // end class
+=======
+   } // end class
+
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

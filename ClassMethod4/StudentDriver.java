@@ -11,10 +11,18 @@ public class StudentDriver
       System.out.println("\n\n");
       senior1.setGPA(4.0, 4.0, 4.0, 4.0, 4.0);
       System.out.println(senior1);
+<<<<<<< HEAD
      
       
+=======
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
       
      
      }
    
   }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

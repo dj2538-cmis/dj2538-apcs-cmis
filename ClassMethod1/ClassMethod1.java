@@ -1,7 +1,11 @@
 package ClassMethod1;
+import javax.swing.JOptionPane;
 
 public class ClassMethod1
     {
+        String username = JOptionPane.showInputDialog("Username:");
+        int password = Integer.parseInt(JOptionPane.showInputDialog("Password(1234):"));
+        
         private String Genre;
         private String Artist;
         private String Song;
@@ -33,9 +37,12 @@ public class ClassMethod1
            return yearReleased;   
           }// get yearRelased
           
-        public void setYearReleased(int released)
+        public void setYearReleased(int yearReleased)
           {
-           this.yearReleased = released; 
+           if(username.equals("DJ") && password == (1234))
+           {
+            this.yearReleased = yearReleased; 
+           }
           }// get yearRelased
           
         public ClassMethod1(String Genre, String Artist, String Song, int SongLength)

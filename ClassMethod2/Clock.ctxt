@@ -7,8 +7,13 @@ comment2.params=hour
 comment2.target=void\ converDaylightSavingplus(int)
 comment3.params=hour
 comment3.target=void\ converDaylightSavingminus(int)
+<<<<<<< HEAD
 comment4.params=hour\ min\ sec
 comment4.target=void\ totalSeconds(int,\ int,\ int)
+=======
+comment4.params=
+comment4.target=int\ calTotalSecs()
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 comment5.params=hour\ min\ sec
 comment5.target=Clock(int,\ int,\ int)
 comment6.params=

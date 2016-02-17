@@ -1,5 +1,6 @@
 #BlueJ package file
 objectbench.height=76
+<<<<<<< HEAD
 objectbench.width=662
 package.editor.height=400
 package.editor.width=560
@@ -45,3 +46,38 @@ target6.type=PackageTarget
 target6.width=80
 target6.x=160
 target6.y=10
+=======
+objectbench.width=686
+package.editor.height=400
+package.editor.width=560
+package.editor.x=20
+package.editor.y=20
+package.numDependencies=0
+package.numTargets=4
+package.showExtends=true
+package.showUses=true
+target1.height=62
+target1.name=Array2D1
+target1.type=PackageTarget
+target1.width=80
+target1.x=160
+target1.y=10
+target2.height=62
+target2.name=Array2D2
+target2.type=PackageTarget
+target2.width=80
+target2.x=250
+target2.y=10
+target3.height=62
+target3.name=Array2D3
+target3.type=PackageTarget
+target3.width=80
+target3.x=340
+target3.y=10
+target4.height=62
+target4.name=Array2D4
+target4.type=PackageTarget
+target4.width=90
+target4.x=430
+target4.y=10
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

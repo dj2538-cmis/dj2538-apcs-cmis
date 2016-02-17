@@ -1,21 +1,37 @@
 #BlueJ package file
 objectbench.height=76
+<<<<<<< HEAD
 objectbench.width=662
 package.editor.height=400
 package.editor.width=560
 package.editor.x=1300
 package.editor.y=109
+=======
+objectbench.width=686
+package.editor.height=400
+package.editor.width=560
+package.editor.x=20
+package.editor.y=20
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
 package.showUses=true
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=1280
 target1.editor.y=62
 target1.height=50
 target1.name=School
 target1.naviview.expanded=false
+=======
+target1.editor.x=529
+target1.editor.y=48
+target1.height=50
+target1.name=School
+target1.naviview.expanded=true
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=

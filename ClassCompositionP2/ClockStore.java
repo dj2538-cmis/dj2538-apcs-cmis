@@ -7,7 +7,11 @@ public class ClockStore
     public ClockStore()
        {
         this.clocksInStock = new Clock[3];    
+<<<<<<< HEAD
         clocksInStock[0] = new Clock( 12, 30, 45 );
+=======
+        clocksInStock[0] = new Clock( 3, 0, 0 );
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
         clocksInStock[1] = new Clock( 6, 30, 20 );
         clocksInStock[2] = new Clock( 10, 30, 10 );
        } // end zero-arg constructor
@@ -43,4 +47,9 @@ public class ClockStore
         return output;  
        } // end method toString 
       
+<<<<<<< HEAD
    } // end clas
+=======
+   } // end class
+
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

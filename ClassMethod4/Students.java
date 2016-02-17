@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package ClassMethod4;
+=======
++package ClassMethod4;
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 
 public class Students
     {
@@ -100,3 +104,8 @@ public class Students
            return output; 
           }
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

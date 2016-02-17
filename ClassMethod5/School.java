@@ -9,6 +9,14 @@ public class School
       String school3 = new String( "UC Riverside" );
       
       System.out.println(school1.compareTo(school2) );
+<<<<<<< HEAD
+=======
+      System.out.println(school1.compareTo(school3) );
+      System.out.println(school2.compareTo(school3) );
+      System.out.println(school2.compareTo(school1) );
+      System.out.println(school3.compareTo(school1) );
+      System.out.println(school3.compareTo(school2) );
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
     }// School Test
     
   // a. What the method is giving us is a "18". What it means is that that the beginning letter of UC Irvine which is 
@@ -18,4 +26,9 @@ public class School
   //    letters. In my case I have UC Irvine and UC Riverside the first two letters are the same so it goes right to
   //    the third letter. It prints out a "-9" if I compare UC Irvine with UC Riverside, because "I" comes letters 
   //    before "R".
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

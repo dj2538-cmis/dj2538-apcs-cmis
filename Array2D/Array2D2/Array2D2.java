@@ -1,13 +1,19 @@
 package Array2D.Array2D2;
+<<<<<<< HEAD
 import javax.swing.JOptionPane;
+=======
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 
 public class Array2D2
    {
     public static void main( String[] args )
        {
         int[][] grid = new int[3][5];
+<<<<<<< HEAD
         int[] numbers = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
         int i = 0;
+=======
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
         int sum = 0;
         int sumRow1 = 0;
         int sumRow2 = 0;
@@ -17,14 +23,23 @@ public class Array2D2
         int sumCol3 = 0;
         int sumCol4 = 0;
         int sumCol5 = 0;
+<<<<<<< HEAD
         
+=======
+        int i = 1;
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
         for( int row = 0; row < grid.length; row++ )
            {
             for( int col = 0; col < grid[0].length; col++ )
                {
+<<<<<<< HEAD
                     grid[row][col] = numbers[i];
                     i++;
                     
+=======
+                grid[row][col] = 1;   
+                i = i +1; 
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
                } // end inner for 
                
            } // end outer for 
@@ -33,7 +48,11 @@ public class Array2D2
            {
             for( int col = 0; col < grid[0].length; col++ )
                {
+<<<<<<< HEAD
                 System.out.print( grid[row][col] + "\t" );   
+=======
+                System.out.print( grid[row][col] + " " );   
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
                } // end inner for 
             System.out.println( "\n" );
            } // end outer for 
@@ -76,3 +95,8 @@ public class Array2D2
        } // end void main
        
    } // end class 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14

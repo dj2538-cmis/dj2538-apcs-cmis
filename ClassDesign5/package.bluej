@@ -5,9 +5,15 @@ dependency1.type=UsesDependency
 objectbench.height=76
 objectbench.width=686
 package.editor.height=400
+<<<<<<< HEAD
 package.editor.width=584
 package.editor.x=1300
 package.editor.y=109
+=======
+package.editor.width=560
+package.editor.x=20
+package.editor.y=20
+>>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 package.numDependencies=1
 package.numTargets=2
 package.showExtends=true
