@@ -8,24 +8,24 @@ public class MyDevice
     
     MyDevice()
        {
-        this.color = color;
-        this.memory = memory;
-        this.size = size;   
+        this.color = "Blue";
+        this. memory = 32.0;
+        this.size = 10;   
        } // end zero-args constructor 
        
     MyDevice( String color, double memory, int size )
        {
-        this.color = "Blue";
-        this. memory = 32.0;
-        this.size = 10;
+        this.color = color;
+        this.memory = memory;
+        this.size = size;
        } // end three args constructor
        
     public String toString()
        {
         String output = new String();
         output = "Device color: " + color + "\n" + 
-                 " Device memory: " + memory + "\n" +
-                 " Device size: " + size; 
+                 "Device memory: " + memory + " GB" + "\n" +
+                 "Device size: " + size + " Inches"; 
                  
         return output; 
        } // end toString

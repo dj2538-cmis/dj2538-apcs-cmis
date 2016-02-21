@@ -7,7 +7,7 @@ public class GpsSoftware
     
     public GpsSoftware()
        {
-         markers.add(123);
+         markers.add(43);
          markers.add(1);
          markers.add(100);
          markers.add(10);

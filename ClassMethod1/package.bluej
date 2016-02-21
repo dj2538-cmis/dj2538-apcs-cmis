@@ -9,28 +9,12 @@ objectbench.height=76
 objectbench.width=686
 package.editor.height=400
 package.editor.width=584
-package.editor.x=1300
-package.editor.y=109
+package.editor.x=21
+package.editor.y=42
 package.numDependencies=2
 package.numTargets=4
 package.showExtends=true
 package.showUses=true
-<<<<<<< HEAD
-target1.height=50
-target1.name=ClassMethod1Driver2
-target1.showInterface=false
-target1.type=ClassTarget
-target1.typeParameters=
-target1.width=160
-target1.x=160
-target1.y=70
-target2.editor.height=437
-target2.editor.width=800
-target2.editor.x=800
-target2.editor.y=0
-target2.height=50
-target2.name=ClassMethod2Driver
-=======
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=60
@@ -44,33 +28,23 @@ target1.typeParameters=
 target1.width=170
 target1.x=280
 target1.y=240
-target2.editor.height=875
+target2.editor.height=437
 target2.editor.width=800
-target2.editor.x=0
+target2.editor.x=800
 target2.editor.y=0
 target2.height=50
-target2.name=ClassMethod1Driver
->>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
+target2.name=ClassMethod2Driver
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
 target2.width=170
-<<<<<<< HEAD
 target2.x=50
 target2.y=280
 target3.editor.height=778
-target3.editor.width=679
+target3.editor.width=1276
 target3.editor.x=4
 target3.editor.y=22
-=======
-target2.x=220
-target2.y=150
-target3.editor.height=875
-target3.editor.width=1600
-target3.editor.x=0
-target3.editor.y=0
->>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 target3.height=50
 target3.name=ClassMethod1
 target3.naviview.expanded=true
@@ -80,30 +54,16 @@ target3.typeParameters=
 target3.width=120
 target3.x=160
 target3.y=10
-<<<<<<< HEAD
 target4.editor.height=875
 target4.editor.width=800
 target4.editor.x=0
 target4.editor.y=0
 target4.height=50
 target4.name=ClassMethod1Driver
-=======
-target4.editor.height=437
-target4.editor.width=800
-target4.editor.x=800
-target4.editor.y=0
-target4.height=50
-target4.name=ClassMethod2Driver
->>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
 target4.naviview.expanded=true
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=170
-<<<<<<< HEAD
 target4.x=220
 target4.y=150
-=======
-target4.x=50
-target4.y=280
->>>>>>> 77ef905eff0701fd6cf8e97585b011acfd04ef14
