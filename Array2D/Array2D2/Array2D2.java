@@ -5,9 +5,9 @@ public class Array2D2
    {
     public static void main( String[] args )
        {
-        int[][] grid = new int[3][5];
-        int[] colsums = new int[5];
-        int[] rowsums = new int[3];
+        int[][] grid = new int[10][10];
+        int[] colsums = new int[10];
+        int[] rowsums = new int[10];
         int i = 0;
         int total = 0; 
 
