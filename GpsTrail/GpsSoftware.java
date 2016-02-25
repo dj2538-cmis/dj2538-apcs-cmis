@@ -7,19 +7,19 @@ public class GpsSoftware
     
     public GpsSoftware()
        {
-         markers.add(43);
-         markers.add(1);
          markers.add(100);
-         markers.add(10);
-         markers.add(14);
-         markers.add(15);
-         markers.add(175);
-         markers.add(178);
+         markers.add(150);
+         markers.add(105);
+         markers.add(120);
+         markers.add(90);
+         markers.add(80);
+         markers.add(50);
+         markers.add(75);
+         markers.add(75);
+         markers.add(70);
+         markers.add(80);
+         markers.add(90);
          markers.add(100);
-         markers.add(10);
-         markers.add(5);
-         markers.add(3);
-         markers.add(1);
        } // end void main 
        
     public GpsSoftware(ArrayList markers)

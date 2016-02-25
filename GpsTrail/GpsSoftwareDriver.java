@@ -6,59 +6,59 @@ public class GpsSoftwareDriver
     public static void main (String[] arg)
     {
         int i= 0;
-        GpsSoftware TrailA = new GpsSoftware();
-        System.out.print("TrailA\nindex Elevation \n" + TrailA);
-        System.out.println("TrailA's total distance is " + TrailA.getLength() + " Meters");
-        System.out.println("TrailA is difficult: " + TrailA.isDifficult(0, TrailA.markers.size()-1));
-        System.out.println("TrailA from marker number 3 to 5 is difficult: " + TrailA.isDifficult(3, 5));
-        System.out.println("TrailA is level: " + TrailA.isLevelTrailSegment(0, TrailA.markers.size()-1));
-        System.out.println("TrailA from marker number 2 to 4 is level: " + TrailA.isLevelTrailSegment(2, 4)+ "\n");
+        GpsSoftware Trail1 = new GpsSoftware();
+        System.out.print("Trail 1 \n \nindex Elevation \n" + Trail1 + "\n");
+        System.out.println("Trail 1's total distance is " + Trail1.getLength() + " Meters");
+        System.out.println("Trail 1 is difficult: " + Trail1.isDifficult(0, Trail1.markers.size()-1));
+        System.out.println("Trail 1 from marker number 1 to 5 is difficult: " + Trail1.isDifficult(1, 5));
+        System.out.println("Trail 1 is level: " + Trail1.isLevelTrailSegment(0, Trail1.markers.size()-1));
+        System.out.println("Trail 1 from marker number 3 to 6 is level: " + Trail1.isLevelTrailSegment(3, 6)+ "\n");
         
         
         ArrayList<Integer> newmarkers = new ArrayList<Integer>();
+        newmarkers.add(10);
+        newmarkers.add(20);
         newmarkers.add(30);
-        newmarkers.add(97);
-        newmarkers.add(92);
-        newmarkers.add(96);
-        newmarkers.add(90);
-        newmarkers.add(90);
-        newmarkers.add(91);
-        newmarkers.add(44);
-        newmarkers.add(93);
-        newmarkers.add(95);
-        newmarkers.add(91);
-        newmarkers.add(24);
-        newmarkers.add(47);
-        GpsSoftware TrailB = new GpsSoftware(newmarkers);
-        System.out.print("TrailB\nindex Elevation \n" + TrailB);
-        System.out.println("TrailB's total distance is " + TrailB.getLength() + " Meters");
-        System.out.println("TrailB is difficult: " + TrailB.isDifficult(0, newmarkers.size()-1));
-        System.out.println("TrailB from marker number 2 to 7 is difficult: " + TrailB.isDifficult(2, 7));
-        System.out.println("TrailB is level: " + TrailB.isLevelTrailSegment(0, newmarkers.size()-1));
-        System.out.println("TrailB from marker number 4 to 9 is level: " + TrailB.isLevelTrailSegment(4, 9)+ "\n");
+        newmarkers.add(40);
+        newmarkers.add(30);
+        newmarkers.add(20);
+        newmarkers.add(60);
+        newmarkers.add(100);
+        newmarkers.add(50);
+        newmarkers.add(40);
+        newmarkers.add(110);
+        newmarkers.add(120);
+        newmarkers.add(100);
+        GpsSoftware Trail2 = new GpsSoftware(newmarkers);
+        System.out.print("Trail 2 \n \nindex Elevation \n" + Trail2 + "\n");
+        System.out.println("Trail 2's total distance is " + Trail2.getLength() + " Meters");
+        System.out.println("Trail 2 is difficult: " + Trail2.isDifficult(0, newmarkers.size()-1));
+        System.out.println("Trail 2 from marker number 1 to 4 is difficult: " + Trail2.isDifficult(1, 4));
+        System.out.println("Trail 2 is level: " + Trail2.isLevelTrailSegment(0, newmarkers.size()-1));
+        System.out.println("Trail 2 from marker number 3 to 9 is level: " + Trail2.isLevelTrailSegment(3, 9)+ "\n");
         
         
         ArrayList<Integer> newMarkers2 = new ArrayList<Integer>();
-        newMarkers2.add(99);
-        newMarkers2.add(96);
-        newMarkers2.add(89);
-        newMarkers2.add(99);
-        newMarkers2.add(56);
-        newMarkers2.add(63);
+        newMarkers2.add(100);
+        newMarkers2.add(120);
+        newMarkers2.add(110);
+        newMarkers2.add(100);
         newMarkers2.add(20);
-        newMarkers2.add(10);
-        newMarkers2.add(10);
-        newMarkers2.add(20);
-        newMarkers2.add(63);
-        newMarkers2.add(56);
-        newMarkers2.add(99);
-        GpsSoftware TrailC = new GpsSoftware(newMarkers2);
-        System.out.print("TrailC\nindex Elevation \n" + TrailC);
-        System.out.println("TrailC's total distance is " + TrailC.getLength() + " Meters");
-        System.out.println("TrailC is difficult: " + TrailC.isDifficult( 0 , newMarkers2.size() - 1));
-        System.out.println("TrailC from marker number 7 to 9 is difficult: " + TrailC.isDifficult(7 , 9));
-        System.out.println("TrailC is level: " + TrailC.isLevelTrailSegment (0 , newMarkers2.size() - 1));
-        System.out.println("TrailC from marker number 2 to 8 is level: " + TrailC.isLevelTrailSegment( 2, 8) + "\n");
+        newMarkers2.add(50);
+        newMarkers2.add(60);
+        newMarkers2.add(70);
+        newMarkers2.add(30);
+        newMarkers2.add(50);
+        newMarkers2.add(80);
+        newMarkers2.add(90);
+        newMarkers2.add(120);
+        GpsSoftware Trail3 = new GpsSoftware(newMarkers2);
+        System.out.print("Trail 3 \n \nindex Elevation \n" + Trail3 + "\n");
+        System.out.println("Trail 3's total distance is " + Trail3.getLength() + " Meters");
+        System.out.println("Trail 3 is difficult: " + Trail3.isDifficult( 0 , newMarkers2.size() - 1));
+        System.out.println("Trail 3 from marker number 5 to 9 is difficult: " + Trail3.isDifficult(5 , 9));
+        System.out.println("Trail 3 is level: " + Trail3.isLevelTrailSegment (0 , newMarkers2.size() - 1));
+        System.out.println("Trail 3 from marker number 3 to 8 is level: " + Trail3.isLevelTrailSegment( 3, 8) + "\n");
         
     }
 }
