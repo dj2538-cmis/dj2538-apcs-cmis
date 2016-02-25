@@ -11,11 +11,22 @@ public class Array2D3
         
         for(int row = 0; row < grid.length; row++)
         {
-            System.out.print(row + "\t");
             
             for(int col = 0; col < grid[0].length; col++)
              {
+                 grid[0][col] = col;
                 grid[row][col] = (row * col);  
+                
+             }
+             grid[row][0] = row;
+            System.out.println("\n"); 
+        }
+        
+         for(int row = 0; row < grid.length; row++)
+        {
+            
+            for(int col = 0; col < grid[0].length; col++)
+             {
                 System.out.print(grid[row][col] + "\t"); 
              }
              
