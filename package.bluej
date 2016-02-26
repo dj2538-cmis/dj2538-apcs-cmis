@@ -1,18 +1,10 @@
 #BlueJ package file
 objectbench.height=76
-<<<<<<< HEAD
-objectbench.width=1256
-package.editor.height=639
-package.editor.width=1154
-package.editor.x=4
-package.editor.y=22
-=======
 objectbench.width=1574
 package.editor.height=709
 package.editor.width=1448
 package.editor.x=0
 package.editor.y=0
->>>>>>> 2729991fbf6d87b731a7c91f6f13ac53a0113f10
 package.numDependencies=0
 package.numTargets=47
 package.showExtends=true
@@ -152,13 +144,8 @@ target29.height=62
 target29.name=Inputnameage
 target29.type=PackageTarget
 target29.width=110
-<<<<<<< HEAD
-target29.x=10
-target29.y=580
-=======
 target29.x=450
 target29.y=10
->>>>>>> 2729991fbf6d87b731a7c91f6f13ac53a0113f10
 target3.height=62
 target3.name=ClassMethod1
 target3.type=PackageTarget
@@ -270,15 +257,9 @@ target45.y=170
 target46.height=62
 target46.name=ClassCompositionBigProblem
 target46.type=PackageTarget
-<<<<<<< HEAD
-target46.width=110
-target46.x=150
-target46.y=410
-=======
 target46.width=230
 target46.x=480
 target46.y=650
->>>>>>> 2729991fbf6d87b731a7c91f6f13ac53a0113f10
 target47.height=62
 target47.name=ClassDesign3
 target47.type=PackageTarget
