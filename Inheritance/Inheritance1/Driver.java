@@ -5,11 +5,15 @@ public class Driver
    {
     public static void main(String args[])
        {
-        MyCreation creation1 = new MyCreation();
-        creation1.setRam(8);
+        Phone Phone1 = new Phone();
+        Phone1.setRam(8);
+        
+        Tablet Tablet1 = new Tablet();
+        Tablet1.setCompany("Apple");
        
         ArrayList<MyDevice> inventory = new ArrayList<MyDevice>();
-        inventory.add(creation1);
+        inventory.add(Phone1);
+        inventory.add(Tablet1);
         
         for(MyDevice d : inventory)
            {

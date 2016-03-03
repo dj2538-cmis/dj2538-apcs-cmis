@@ -1,6 +1,6 @@
 package Inheritance.Inheritance1;
 
-public class MyDevice 
+public class MyDevice
    {
     private String color;
     private double memory; // in GB
