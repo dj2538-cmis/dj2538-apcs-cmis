@@ -44,15 +44,17 @@ public class GpsSoftware
         return length;
        } // end getter
     
+       // Start false and i is more than begin because first marker doesn't matter and i - 1 will be
+       // out of bounds if just i. 
     public boolean isLevelTrailSegment(int begin, int end)
        {
-        boolean level = false;
+        boolean level = true;
                     
         for( int i = begin; i < end; i++ )
            {
-            if(i > begin && Math.abs(markers.get(i) - markers.get(i-1)) < 10)
+            if(i > begin && Math.abs(markers.get(i) - markers.get(i-1)) > 10)
                {
-                level = true;
+                level = false;
                } // end if 
            } // end for 
         
@@ -71,7 +73,7 @@ public class GpsSoftware
     {
         int height = 0;
         
-        for( int i = begin; i < end; i++ )
+        for( int i = begin; i <= end; i++ )
            {
             if( i > begin && markers.get(i) - markers.get(i-1) > 0)
                {
@@ -79,7 +81,7 @@ public class GpsSoftware
                } // end if
            } // end for 
         
-        if (height > 100 && isLevelTrailSegment(begin, end))
+        if (height >= 100 && isLevelTrailSegment(begin, end) == false)
            {
             return true;
            } // end if 

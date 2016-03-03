@@ -1,10 +1,18 @@
 #BlueJ package file
 objectbench.height=76
+<<<<<<< HEAD
 objectbench.width=1221
 package.editor.height=533
 package.editor.width=1119
 package.editor.x=4
 package.editor.y=106
+=======
+objectbench.width=1574
+package.editor.height=709
+package.editor.width=1448
+package.editor.x=0
+package.editor.y=0
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 package.numDependencies=0
 package.numTargets=47
 package.showExtends=true
@@ -27,11 +35,19 @@ target10.width=120
 target10.x=410
 target10.y=340
 target11.height=62
+<<<<<<< HEAD
 target11.name=Inheritance
 target11.type=PackageTarget
 target11.width=110
 target11.x=970
 target11.y=340
+=======
+target11.name=ClassCompositionP4
+target11.type=PackageTarget
+target11.width=170
+target11.x=550
+target11.y=750
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 target12.height=62
 target12.name=ClassCompositionBigProblem
 target12.type=PackageTarget
@@ -99,11 +115,19 @@ target21.width=120
 target21.x=140
 target21.y=650
 target22.height=62
+<<<<<<< HEAD
 target22.name=ClassMethod5
 target22.type=PackageTarget
 target22.width=120
 target22.x=10
 target22.y=650
+=======
+target22.name=GpsTrail
+target22.type=PackageTarget
+target22.width=80
+target22.x=500
+target22.y=820
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 target23.height=62
 target23.name=ClassMethodBigProblem
 target23.type=PackageTarget
@@ -111,6 +135,7 @@ target23.width=200
 target23.x=270
 target23.y=650
 target24.height=62
+<<<<<<< HEAD
 target24.name=GpsTrail
 target24.type=PackageTarget
 target24.width=80
@@ -128,6 +153,25 @@ target26.type=PackageTarget
 target26.width=130
 target26.x=660
 target26.y=240
+=======
+target24.name=ClassMethod5
+target24.type=PackageTarget
+target24.width=120
+target24.x=10
+target24.y=650
+target25.height=62
+target25.name=WeatherChaos
+target25.type=PackageTarget
+target25.width=130
+target25.x=660
+target25.y=240
+target26.height=62
+target26.name=ClassMethod4
+target26.type=PackageTarget
+target26.width=120
+target26.x=400
+target26.y=580
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 target27.height=62
 target27.name=ClassMethod3
 target27.type=PackageTarget
@@ -183,6 +227,7 @@ target34.width=130
 target34.x=10
 target34.y=240
 target35.height=62
+<<<<<<< HEAD
 target35.name=Fundemental7
 target35.type=PackageTarget
 target35.width=130
@@ -194,6 +239,19 @@ target36.type=PackageTarget
 target36.width=80
 target36.x=150
 target36.y=240
+=======
+target35.name=Test1
+target35.type=PackageTarget
+target35.width=80
+target35.x=150
+target35.y=240
+target36.height=62
+target36.name=Fundemental7
+target36.type=PackageTarget
+target36.width=130
+target36.x=290
+target36.y=170
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 target37.height=62
 target37.name=Fundemental8
 target37.type=PackageTarget
@@ -291,8 +349,16 @@ target8.width=120
 target8.x=10
 target8.y=410
 target9.height=62
+<<<<<<< HEAD
 target9.name=ClassCompositionP4
 target9.type=PackageTarget
 target9.width=170
 target9.x=550
 target9.y=750
+=======
+target9.name=Inheritance
+target9.type=PackageTarget
+target9.width=110
+target9.x=970
+target9.y=340
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d

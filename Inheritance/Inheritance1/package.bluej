@@ -9,25 +9,33 @@ dependency3.from=Driver
 dependency3.to=Tablet
 dependency3.type=UsesDependency
 objectbench.height=76
-objectbench.width=686
+objectbench.width=710
 package.editor.height=400
 package.editor.width=584
+<<<<<<< HEAD
 package.editor.x=44
 package.editor.y=146
 package.numDependencies=3
 package.numTargets=4
+=======
+package.editor.x=40
+package.editor.y=40
+package.numDependencies=2
+package.numTargets=3
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 package.showExtends=true
 package.showUses=true
-target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=84
-target1.editor.y=82
+target1.editor.height=875
+target1.editor.width=1600
+target1.editor.x=0
+target1.editor.y=0
 target1.height=50
 target1.name=Phone
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
+<<<<<<< HEAD
 target1.width=80
 target1.x=300
 target1.y=220
@@ -35,6 +43,15 @@ target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=80
 target2.editor.y=60
+=======
+target1.width=100
+target1.x=160
+target1.y=180
+target2.editor.height=877
+target2.editor.width=1606
+target2.editor.x=-3
+target2.editor.y=0
+>>>>>>> 404c9fa5bc2f4ec09c0b5965f37df8f8969fc27d
 target2.height=50
 target2.name=Driver
 target2.naviview.expanded=true
