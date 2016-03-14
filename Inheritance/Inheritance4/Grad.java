@@ -7,9 +7,9 @@ public class Grad extends Student
         super(firstname, major, units);   
        } // end constructor
        
-    public int calulateTuition(int units)
+    public int calulateTuition()
        {
-        return units * 500;    
+        return getunits()* 500;    
        } // end caltuition
        
     public String toString()

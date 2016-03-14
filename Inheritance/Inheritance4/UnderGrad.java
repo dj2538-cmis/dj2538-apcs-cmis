@@ -7,9 +7,9 @@ public class UnderGrad extends Student
         super(firstname, major, units);   
        } // end constructor
        
-    public int calulateTuition(int units)
+    public int calulateTuition()
        {
-        return units * 250;    
+        return getunits() * 250;    
        } // end caltuition
        
     public String toString()

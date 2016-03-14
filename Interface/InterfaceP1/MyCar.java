@@ -26,11 +26,11 @@ public class MyCar extends Vehicle
         draw = Math.random();
         if( draw > 0.5)
            {
-            return "Today's your lucky day, your car is discountable!";
+            return "You get a discount!";
            }
         else
            {
-            return "Sorry, your car is full price";
+            return "full price";
            }
        }
        

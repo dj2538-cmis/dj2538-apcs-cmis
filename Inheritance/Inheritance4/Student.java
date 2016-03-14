@@ -43,12 +43,15 @@ public abstract class Student
         return units;    
        } //get units
        
+    public abstract int calulateTuition();
+    
     public String toString()
        {
         String output = new String();   
         output = "First name: " + firstname + "\n" +
                  "Major: " + major + "\n" +
-                 "Units: " + units + "\n"; 
+                 "Units: " + units + "\n" +
+                 "Tuition Price: " + calulateTuition();
         return output;
        } // end toString 
        

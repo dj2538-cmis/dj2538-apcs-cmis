@@ -30,16 +30,16 @@ public class Driver
                 ArrayStudent[row][col] = inventory.get(x);
                 x++;
                } // end inner for
+               
            } // end outer for
            
         for( int row = 0; row < ArrayStudent.length; row++)
            {
             for( int col = 0; col < ArrayStudent[0].length; col++)
                {
-                System.out.println(ArrayStudent[row][col] + "\t");
+                System.out.println(ArrayStudent[row][col] );
                 
                } // end inner for
-            System.out.println();
            } // end outer for
         
         

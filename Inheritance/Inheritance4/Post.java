@@ -7,9 +7,9 @@ public class Post extends Student
         super(firstname, major, units);   
        } // end constructor
        
-    public int calulateTuition(int units)
+    public int calulateTuition()
        {
-        return (units*750);    
+        return getunits()*750;    
        } // end caltuition
        
     public String toString()

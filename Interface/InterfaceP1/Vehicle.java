@@ -6,7 +6,7 @@ public abstract class Vehicle implements Connectable, Discountable
     
     public Vehicle()
        {
-        this.numpassengers = 0;   
+        this.numpassengers = 4;   
        } // end zero-constructor
        
     public Vehicle( int passengers ) 
