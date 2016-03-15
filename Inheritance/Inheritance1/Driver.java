@@ -10,10 +10,14 @@ public class Driver
         
         Tablet Tablet1 = new Tablet();
         Tablet1.setCompany("Apple");
-       
+        
+        MyCreation MyCreation1 = new MyCreation();
+        MyCreation1.setcorespeed(100);
+        
         ArrayList<MyDevice> inventory = new ArrayList<MyDevice>();
         inventory.add(Phone1);
         inventory.add(Tablet1);
+        inventory.add(MyCreation1);
         
         for(MyDevice d : inventory)
            {

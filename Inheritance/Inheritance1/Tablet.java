@@ -33,7 +33,7 @@ public class Tablet extends MyDevice
         String output = new String();
         output = "Tablet" + "\n" + super.toString() + "\n" + 
                  "Screen specs: " + screenspecs + "p" + "\n" +
-                 "Company : " + getcompany();
+                 "Company : " + getcompany() + "\n";
                  
         return output; 
        } // end toString

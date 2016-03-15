@@ -3,7 +3,7 @@ package Inheritance.Inheritance1;
 public class MyCreation extends MyDevice
    {
     private int cloud; // cloud storage
-    private int ram; // GB
+    private int corespeed;
     
     MyCreation()
        {
@@ -15,25 +15,26 @@ public class MyCreation extends MyDevice
        {
         super(color, memory, size);
         this.cloud = cloud;
+        this.corespeed = corespeed;
        } // end three args constructor
     
-    public int getRam()
+    public int getcorespeed()
        {
-        return ram; 
+        return corespeed; 
        } // end getRam
        
        
-    public void setRam( int ram )
+    public void setcorespeed( int corespeed )
        {
-        this.ram = ram;       
+        this.corespeed = corespeed;       
         } // end setRam
        
     public String toString()
        {
         String output = new String();
-        output = super.toString() + "\n" + 
+        output = "My Creation " + "\n" +super.toString() + "\n" + 
                  "Cloud storage: " + cloud + " GB" + "\n" +
-                 "Ram : " + getRam() + " GB";
+                 "Core Speed is : " + getcorespeed() + " KPH";
                  
         return output; 
        } // end toString

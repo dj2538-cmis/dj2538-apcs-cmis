@@ -37,9 +37,10 @@ public class Driver
            {
             for( int col = 0; col < ArrayStudent[0].length; col++)
                {
-                System.out.println(ArrayStudent[row][col] );
-                
+                System.out.print(ArrayStudent[row][col] + "\t\t\t");
+               
                } // end inner for
+            System.out.println();
            } // end outer for
         
         

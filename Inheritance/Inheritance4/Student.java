@@ -48,10 +48,10 @@ public abstract class Student
     public String toString()
        {
         String output = new String();   
-        output = "First name: " + firstname + "\n" +
-                 "Major: " + major + "\n" +
-                 "Units: " + units + "\n" +
-                 "Tuition Price: " + calulateTuition();
+        output = "First name: " + firstname  +
+                 " Major: " + major +
+                 " Units: " + units +
+                 " Tuition Price: " + calulateTuition();
         return output;
        } // end toString 
        
