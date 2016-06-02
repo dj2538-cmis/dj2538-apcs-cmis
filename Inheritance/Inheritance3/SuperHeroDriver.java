@@ -44,7 +44,7 @@ public class SuperHeroDriver
                     if(inventory.get(i).isCaped() == true)
                        {
                         capedHeroes[row][col] = inventory.get(i);
-                        inventory.r\move(inventory.get(i));
+                        inventory.remove(inventory.get(i));
                        }// end if 
                        
                     else

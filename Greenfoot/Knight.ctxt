@@ -1,7 +1,23 @@
 #BlueJ class context
 comment0.target=Knight
-comment0.text=\n\ Write\ a\ description\ of\ class\ Knight\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Knight\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
+comment10.params=
+comment10.target=void\ DownLadder()
+comment2.params=
+comment2.target=void\ moving()
+comment3.params=
+comment3.target=void\ UpLadder()
+comment4.params=
+comment4.target=void\ AvoidFloor()
+comment5.params=
+comment5.target=void\ eat()
+comment6.params=
+comment6.target=void\ fall()
+comment7.params=ground
+comment7.target=void\ moveToGround(greenfoot.Actor)
+comment8.params=
+comment8.target=boolean\ onGround()
+comment9.params=
+comment9.target=void\ checkFall()
+numComments=11

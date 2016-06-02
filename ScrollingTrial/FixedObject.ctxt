@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FixedObject
+comment0.text=\n\ All\ subclasses\ and\ subobjects\ of\ this\ class\ will\ not\ be\ moved\ by\ the\ scrolling\ system.\n\ This\ class\ is\ necessary\ for\ the\ scrolling\ system\ because\ this\ class\ is\ known\ in\ ScrollingWorld.\n\ If\ you\ delete\ it\ that'll\ cause\ errors.\n
+comment1.params=
+comment1.target=FixedObject()
+numComments=2

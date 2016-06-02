@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=ScrollingWorld
+comment0.text=\n\ This\ world\ contains\ the\ main\ part\ of\ the\ scrolling\ system.\n\ \n\ Here\ you\ can\ also\ limit\ the\ world\ by\ changing\ the\ variables\ WORLD_WIDTH\ and\ WORLD_HEIGHT\ using\ the\ constructor\ of\ the\ class\ (see\ ExampleWorld).\n\ You\ can\ create\ scrolling\ worlds\ in\ every\ screen\ size\ (the\ size\ of\ the\ frame)\ and\ every\ scrolling\ size\ (the\ real\ size\ of\ the\ world).\n\ \n\ The\ GreenfootImage\ textur\ is\ the\ background\ image\ that\ is\ used\ for\ the\ scrolling\ background.\ You\ can\ use\ any\ image\ you\ want\ instead\ of\ this.\ \n\ You\ just\ have\ to\ call\ the\ method\ setScrollingBackground\ in\ the\ constructor\ of\ your\ scrolling\ world\ (see\ ExampleWorld)\ with\ the\ GreenfootImage\ you\ want\ to\ use\ for\ the\ background.\n\ \n\ The\ scenario\ will\ automaticly\ create\ a\ example\ world.\ You\ can\ delete\ this\ world\ and\ use\ another\ subclass\ of\ this\ world\ if\ you\ want\ to\ use\ the\ scrolling\ system\ in\ your\ scenario.\n\ \n\ \n\ You\ shouldn't\ change\ the\ code\ of\ this\ class\ because\ that\ will\ probably\ cause\ problems\ in\ the\ scrolling\ system.\n
+comment1.params=screenWidth\ screenHeight
+comment1.target=ScrollingWorld(int,\ int)
+comment10.params=
+comment10.target=int\ getScrollingHeight()
+comment10.text=\n\ Returns\ the\ height\ of\ to\ scrolling\ world.\ (0\ \=>\ infinite).\n\ \n\ @return\n\ \ \ \ \ \ The\ height\ of\ the\ scrolling\ system.\ If\ 0\ is\ returned\ the\ world\ height\ is\ infinite.\n
+comment11.params=
+comment11.target=int\ getTotalXMovement()
+comment11.text=\n\ Get\ the\ total\ movement\ in\ x\ direction.\n\ \n\ @return\n\ \ \ \ \ \ The\ total\ movement\ in\ x\ direction\ the\ scrolling\ actor\ has\ covered.\n
+comment12.params=
+comment12.target=int\ getTotalYMovement()
+comment12.text=\n\ Get\ the\ total\ movement\ in\ y\ direction.\n\ \n\ @return\n\ \ \ \ \ \ The\ total\ movement\ in\ y\ direction\ the\ scrolling\ actor\ has\ covered.\n
+comment2.params=screenWidth\ screenHeight\ cellSize
+comment2.target=ScrollingWorld(int,\ int,\ int)
+comment3.params=screenWidth\ screenHeight\ scrollingWidth\ scrollingHeight
+comment3.target=ScrollingWorld(int,\ int,\ int,\ int)
+comment4.params=screenWidth\ screenHeight\ cellSize\ scrollingWidth\ scrollingHeight
+comment4.target=ScrollingWorld(int,\ int,\ int,\ int,\ int)
+comment5.params=
+comment5.target=void\ createTextur()
+comment5.text=\n\ Creates\ a\ moving\ textur\ on\ the\ background\ image\ of\ the\ world.\n
+comment6.params=
+comment6.target=void\ removeAllObjects()
+comment6.text=\n\ Remove\ all\ objects\ that\ currently\ are\ in\ the\ world.\n
+comment7.params=actor
+comment7.target=void\ removeAllObjectsBut(greenfoot.Actor)
+comment7.text=\n\ Remove\ all\ objects\ that\ currently\ are\ in\ the\ world\ with\ the\ exception\ of\ the\ actor\ given\ as\ parameter.\n\ \n\ @param\ actor\n\ \ \ \ \ \ The\ only\ object\ that\ will\ not\ be\ removed\ from\ the\ world.\n
+comment8.params=bgImage
+comment8.target=void\ setScrollingBackground(greenfoot.GreenfootImage)
+comment8.text=\n\ Change\ the\ background\ image\ of\ the\ scrolling\ world\ to\ the\ given\ image.\n\ \n\ @param\ bgImage\n\ \ \ \ \ \ The\ new\ background\ image.\n
+comment9.params=
+comment9.target=int\ getScrollingWidth()
+comment9.text=\n\ Returns\ the\ width\ of\ to\ scrolling\ world.\ (0\ \=>\ infinite).\n\ \n\ @return\n\ \ \ \ \ \ The\ width\ of\ the\ scrolling\ system.\ If\ 0\ is\ returned\ the\ world\ width\ is\ infinite.\n
+numComments=13

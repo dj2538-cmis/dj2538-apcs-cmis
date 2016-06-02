@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Heart
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ fall()
+comment3.params=ground
+comment3.target=void\ moveToGround(greenfoot.Actor)
+comment4.params=
+comment4.target=boolean\ onGround()
+comment5.params=
+comment5.target=void\ checkFall()
+numComments=6

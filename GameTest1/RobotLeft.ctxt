@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RobotLeft
+comment1.params=
+comment1.target=RobotLeft()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ Reappear()
+comment4.params=
+comment4.target=void\ MoveRight()
+numComments=5

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ScrollingActor
+comment0.text=\n\ This\ class\ contains\ the\ scrolling\ actor.\ This\ actor\ will\ always\ be\ in\ the\ middle\ of\ the\ screen\ and\ the\ objects\ around\ him\ will\ be\ moved.\n\ You\ shouldn't\ change\ the\ code\ of\ this\ class\ because\ that\ will\ probably\ cause\ problems\ in\ the\ scrolling\ system.\n
+comment1.params=
+comment1.target=ScrollingActor()
+comment2.params=scrollingCenter
+comment2.target=ScrollingActor(boolean)
+comment3.params=world
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+comment4.text=\n\ An\ extended\ setLocation\ method.\n\ You\ should\ not\ change\ this\ method.\ That\ would\ cause\ problems\ in\ the\ programm.\n\ \n\ @param\ x\n\ \ \ \ \ \ The\ new\ x\ location\ of\ the\ actor.\n\ \n\ @param\ y\n\ \ \ \ \ \ The\ new\ x\ location\ of\ the\ actor.\n
+comment5.params=x\ y
+comment5.target=void\ setLocation(double,\ double)
+comment5.text=\n\ An\ extended\ setLocation\ method\ which\ uses\ double\ values\ for\ the\ coordinates.\n\ You\ should\ not\ change\ this\ method.\ That\ would\ cause\ problems\ in\ the\ programm.\n\ \n\ @param\ x\n\ \ \ \ \ \ The\ new\ x\ location\ of\ the\ actor.\n\ \n\ @param\ y\n\ \ \ \ \ \ The\ new\ x\ location\ of\ the\ actor.\n
+comment6.params=x\ y\ resetPosition
+comment6.target=void\ setLocation(double,\ double,\ boolean)
+comment6.text=\n\ An\ extended\ setLocation\ method\ which\ uses\ double\ values\ for\ the\ coordinates\ and\ doesn't\ always\ reset\ the\ players\ position.\n\ You\ should\ not\ change\ this\ method.\ That\ would\ cause\ problems\ in\ the\ programm.\n\ \n\ @param\ x\n\ \ \ \ \ \ The\ new\ x\ location\ of\ the\ actor.\n\ \n\ @param\ y\n\ \ \ \ \ \ The\ new\ x\ location\ of\ the\ actor.\n\ \n\ @param\ resetPosition\n\ \ \ \ \ \ If\ you\ don't\ want\ to\ reset\ the\ players\ position\ this\ value\ has\ to\ be\ false.\n
+comment7.params=
+comment7.target=boolean\ isScrollingCenter()
+comment8.params=scrollingCenter
+comment8.target=void\ setScrollingCenter(boolean)
+numComments=9

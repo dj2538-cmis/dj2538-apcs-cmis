@@ -18,6 +18,8 @@ public class Bigproblemone
      rands[index] = randNum; 
      System.out.println(rands[index]);
     }
+    
+    
         
     int[] repeat = new int[userint];
     for(int i = 0; i <= 99; i++)

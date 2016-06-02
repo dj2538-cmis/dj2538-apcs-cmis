@@ -13,14 +13,14 @@ public class BlackJackDriver2
       BlackJack card5[] = new BlackJack[2]; 
       BlackJack dealercard[] = new BlackJack[2]; 
       
-      String[] cards = {"2","3","4", "5", "6", "7", "8", "9"
+      String[] cards =  {"2","3","4", "5", "6", "7", "8", "9"
                         , "10", "J", "Q", "K", "A"};
                         
       int[] dealervalue = {2,3,4,5,6,7,8,9,10,10,10,10,11};
       int[] value = {2,3,4,5,6,7,8,9,10,10,10,10,11};
       int score = 0;
       int dealerscore = 0;
-      String winner = "";
+      String winner = new String();
       String loser = "";
       String blackjack = "";
                         
