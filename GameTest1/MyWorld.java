@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class MyWorld extends World
    {
-    ArrayList Objects = new ArrayList(2);
+    ArrayList Objects = new ArrayList();
     
     public MyWorld()
        {    
