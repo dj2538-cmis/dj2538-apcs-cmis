@@ -1,11 +1,8 @@
 import greenfoot.*;  
 
-public class Background extends SmoothMover 
+public abstract class Background extends SmoothMover
    { 
-    public void act() 
-       {
-        Moving();
-       } // end act
+    public abstract void act();   
        
     public void Moving()
        {
